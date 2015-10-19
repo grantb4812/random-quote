@@ -1,13 +1,25 @@
+
 .app-body {
   width: 80%;
   margin: 0 auto;
 }
 
+.quote-body {
+  height: 5em;
+  margin-bottom: 3em;
+}
+
+.title {
+  margin-top: 3em;
+}
+
+.replace {
+  margin-top: 3em;
+}
+
 h1,
 p {
   text-align: center;
-  margin-top: 3em;
-  padding-bottom: 1em;
 }
 
 .button {
@@ -28,4 +40,12 @@ button {
 span {
   width: 20px;
   margin: 0 auto;
+}
+
+.share {
+  display: none;
+}
+
+.center-tweet {
+  text-align: center;
 }

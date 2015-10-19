@@ -2,22 +2,37 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Random Chuck Norris Quote</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="main.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="app.js"></script>
 </head>
 <body>
 	<section class="app-body">
-  		<h1>Random Quote Machine</h1>
-  		<div class="hide-show">
-  			<p>Looking for a random quote?</p>
-  			<p>Look no further!</p>
+  		<h1 class="title">Random Quote Machine</h1>
+  		<div class="quote-body">
+        <div>
+  			 <p class="replace">Looking for a random quote?</p>
+  			 <p class="remove">Look no further!</p>
+         <div class="center-tweet">
+           <a class="share" href="">
+             <i class="fa fa-twitter"></i>
+           </a>
+         </div>
+        </div>
   		</div>
   		<div class="button">
     		<button>Click Here</button>  
   		</div>  
-	</section>
+      
 
+
+
+
+      
+
+	</section>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </body>
 </html>
